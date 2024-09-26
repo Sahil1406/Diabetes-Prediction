@@ -78,7 +78,7 @@ x_test_prediction = classifier.predict(X_test)
 
 test_data_accuracy = accuracy_score(x_test_prediction, Y_test)
 
-# print('Accuracy score on test data: ', test_data_accuracy)
+print('Accuracy score on test data: ', test_data_accuracy)
 
 
 # now if the values needs to be taken from the user
